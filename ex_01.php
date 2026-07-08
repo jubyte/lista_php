@@ -18,3 +18,4 @@ $y = 5;
 echo "Valor de x: " . $x . "<br>";
 echo "Valor de y: " . $y . "<br>";
 echo "Resultado da fórmula: " . calculateFormula($x, $y);
+?>
