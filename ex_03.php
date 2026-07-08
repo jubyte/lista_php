@@ -13,4 +13,4 @@ $cpf = "13888138906";
 
 echo "CPF Original: $cpf <br><br>";
 echo "CPF Mascarado: " . mascararCpf($cpf);
-?>
+?> 
