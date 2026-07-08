@@ -6,7 +6,6 @@ function converterTemperatura($valor, $origem, $destino)
     }
 
     if ($origem == "C") {
-
         if ($destino == "F") {
             return ($valor * 9 / 5) + 32;
         }
@@ -17,7 +16,6 @@ function converterTemperatura($valor, $origem, $destino)
     }
 
     if ($origem == "F") {
-
         if ($destino == "C") {
             return ($valor - 32) * 5 / 9;
         }
@@ -28,7 +26,6 @@ function converterTemperatura($valor, $origem, $destino)
     }
 
     if ($origem == "K") {
-
         if ($destino == "C") {
             return $valor - 273.15;
         }
@@ -41,12 +38,11 @@ function converterTemperatura($valor, $origem, $destino)
     return "Escala inválida.";
 }
 
-$valor = 30;
-$origem = "C";
-$destino = "F";
+$valor = 67;
+$origem = "F";
+$destino = "C";
 
 echo "Temperatura: $valor °$origem <br>";
 echo "Convertendo para: $destino <br><br>";
 echo "Resultado: " . converterTemperatura($valor, $origem, $destino) . " °$destino";
-
 ?>
