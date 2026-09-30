@@ -5,7 +5,7 @@ function inverterTexto($texto)
     return $textoInvertido;
 }
 
-$texto = "gatinho fofo";
+$texto = "Gatinho fofo";
 echo "Texto Original: $texto <br>";
 echo "Quantidade de Caracteres: " . strlen($texto) . "<br><br>";
 echo "Texto Invertido: " . inverterTexto($texto);

@@ -30,5 +30,4 @@ echo "Valor da Compra: R$ " . number_format($resultado["valorOriginal"], 2, ",",
 echo "Desconto Aplicado: " . $resultado["percentual"] . "%<br>";
 echo "Valor do Desconto: R$ " . number_format($resultado["desconto"], 2, ",", ".") . "<br><br>";
 echo "Valor Final: R$ " . number_format($resultado["valorFinal"], 2, ",", ".");
-
 ?>

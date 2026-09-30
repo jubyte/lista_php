@@ -15,7 +15,7 @@ function analisarTexto($texto)
     ];
 }
 
-$texto = "cachorro do kike recebendo carinho da julia";
+$texto = "Cachorro do Kike recebendo carinho da Julia";
 $resultado = analisarTexto($texto);
 
 echo "Texto: $texto <br><br>";
